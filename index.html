@@ -3,3 +3,11 @@ layout: main
 ---
 
 <h1>Association Sonar</h1>
+
+<ul>
+{% for event in site.data.events.2018 %}
+  <li>
+    {{ event.date }} - {{ event.name }} - {{ event.place }}
+  </li>
+{% endfor %}
+</ul>
