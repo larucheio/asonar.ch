@@ -4,10 +4,18 @@ layout: main
 
 <h1>Association Sonar</h1>
 
-<ul>
 {% for event in site.data.events.2018 %}
-  <li>
+  <div class="event__hero" style="background-image: url('{{ event.image }}');">
     {{ event.date }} - {{ event.name }} - {{ event.place }}
-  </li>
+  </div>
 {% endfor %}
-</ul>
+
+
+<style media="screen">
+  .event__hero {
+    padding: 4em 1em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
