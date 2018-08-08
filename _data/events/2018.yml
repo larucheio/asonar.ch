@@ -3,12 +3,12 @@
   place: 'API'
   image: '/assets/img/latino.jpg'
 
-- date: '18.10.2018'
+- date: '12.10.2018'
   name: 'Rock'
   place: 'API'
   image: '/assets/img/rock.jpg'
 
-- date: '08.11.2018'
+- date: '09.11.2018'
   name: 'Improvisation'
   place: 'API'
   image: '/assets/img/impro.jpg'
