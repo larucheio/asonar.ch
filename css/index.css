@@ -26,8 +26,8 @@ header {
   background-position: center 60%;
 }
 
-section {
-  padding: 4em 1em;
+.description {
+  margin: 4em 1em;
 }
 
 footer {

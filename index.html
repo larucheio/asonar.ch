@@ -6,17 +6,19 @@ layout: main
   <img src="/assets/img/logo.svg" alt="sonar's logo">
 </header>
 
-{% for event in site.data.events %}
-  <div class="event__hero" style="background-image: url('{{ event.image }}');">
-    {{ event.date }}
-    <br>
-    {{ event.name }}
-    <br>
-    {{ event.place }}
-  </div>
-{% endfor %}
-
 <section>
+  {% for event in site.data.events %}
+    <div class="event__hero" style="background-image: url('{{ event.image }}');">
+      {{ event.date }}
+      <br>
+      {{ event.name }}
+      <br>
+      {{ event.place }}
+    </div>
+  {% endfor %}
+</section>
+
+<section class="description">
   <p>Sonar est une association genevoise poursuivant notamment les buts suivants:</p>
   <ul>
     <li>Défendre une politique visant à l’amélioration et la diversification de la scène culturelle dans le Canton de Genève ;</li>
