@@ -20,6 +20,10 @@ body {
 header {
   padding: 1em;
   text-align: center;
+  background-image: url('/assets/img/whale.png');
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: center 60%;
 }
 
 footer {
