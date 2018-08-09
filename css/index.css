@@ -26,6 +26,10 @@ header {
   background-position: center 60%;
 }
 
+section {
+  padding: 4em 1em;
+}
+
 footer {
   padding: 4em 1em;
   text-align: center;
