@@ -8,13 +8,8 @@ layout: main
 
 <section>
   {% for event in site.data.events %}
-    <div class="event__hero" style="background-image: url('{{ event.image }}');">
-      {{ event.date }}
-      <br>
-      {{ event.name }}
-      <br>
-      {{ event.place }}
-    </div>
+  {% assign place = site.data.places[event.place] %}
+    {% include event.html %}
   {% endfor %}
 </section>
 

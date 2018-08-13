@@ -1,0 +1,7 @@
+api:
+  name: API
+  description: ''
+  address:
+    streetAddress: 25 rue du Vuache
+    addressLocality: Genève
+    addressRegion: Genève
