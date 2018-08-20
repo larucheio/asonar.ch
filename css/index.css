@@ -18,8 +18,24 @@ body {
 }
 
 header {
-  padding: 4em 1em;
+  margin: 0;
   text-align: center;
+  position: relative;
+  color: white;
+}
+
+header img {
+  position: absolute;
+  width: 200px;
+  left: calc(50% - 100px);
+  top: calc(50% - 41px);
+}
+
+header p {
+  position: absolute;
+  font-size: 2em;
+  bottom: 1em;
+  left: calc(50% - 1rem);
 }
 
 .description {
@@ -47,4 +63,9 @@ footer a {
   font-weight: bold;
   text-decoration: none;
   color: black;
+}
+
+canvas {
+  display: block;
+  width: 100%;
 }
