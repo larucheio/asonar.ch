@@ -20,10 +20,6 @@ body {
 header {
   padding: 4em 1em;
   text-align: center;
-  background-image: url('/assets/img/whale.png');
-  background-repeat: no-repeat;
-  background-size: 55%;
-  background-position: center 60%;
 }
 
 .description {
@@ -33,18 +29,22 @@ header {
   max-width: 800px;
 }
 
+.separator {
+  text-align: center;
+}
+
+.separator img {
+  min-width: 200px;
+}
+
 footer {
   padding: 4em 1em;
   text-align: center;
-  background-image: url('/assets/img/underwater.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 footer a {
   font-size: 1.5em;
   font-weight: bold;
   text-decoration: none;
-  color: white;
+  color: black;
 }
