@@ -5,7 +5,7 @@
   name: 'Rock'
   description: ''
   place: api
-  image: '/assets/img/rock.jpg'
+  image: '/assets/img/events/2018-10-12.jpg'
 
 - date:
     public: '09.11.2018'
@@ -14,7 +14,7 @@
   name: 'Improvisation'
   description: ''
   place: api
-  image: '/assets/img/impro.jpg'
+  image: '/assets/img/events/2018-11-09.jpg'
 
 - date:
     public: '17.11.2018'
@@ -23,7 +23,7 @@
   name: 'Stand-up'
   description: ''
   place: api
-  image: '/assets/img/standup.jpg'
+  image: '/assets/img/events/2018-11-17.jpg'
 
 - date:
     public: '29.11.2018'
@@ -32,4 +32,4 @@
   name: 'All Styles'
   description: ''
   place: terreau
-  image: '/assets/img/allstyles.jpg'
+  image: '/assets/img/events/2018-11-29.jpg'
