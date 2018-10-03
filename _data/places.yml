@@ -5,3 +5,10 @@ api:
     streetAddress: 25 rue du Vuache
     addressLocality: Genève
     addressRegion: Genève
+terreau:
+  name: Terreau
+  description: ''
+  address:
+    streetAddress: 6 rue des Terreaux-du-Temple
+    addressLocality: Genève
+    addressRegion: Genève
