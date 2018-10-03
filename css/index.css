@@ -10,34 +10,11 @@ body {
 .event__hero {
   color: white;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 4em 1em;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-header {
-  margin: 0;
-  text-align: center;
-  position: relative;
-  color: white;
-  width: 100vw;
-  height: 100vh;
-}
-
-header img {
-  position: absolute;
-  width: 200px;
-  left: calc(50% - 100px);
-  top: calc(50% - 41px);
-}
-
-header p {
-  position: absolute;
-  font-size: 2em;
-  bottom: 1em;
-  left: calc(50% - 1rem);
 }
 
 .description {
