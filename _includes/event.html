@@ -3,18 +3,19 @@
   <br>
   <span itemprop="name">{{ event.name }}</span>
 
-  {% if event.description != '' %}
   <br>
-    <span itemprop="description">{{ event.description }}</span><br>
-  {% endif %}
-  <br>
+
   <div itemprop="location" itemscope itemtype="http://schema.org/Place">
-      <span itemprop="name">{{ place.name }}</span>
-      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="display: none;">
-          <span itemprop="streetAddress">{{ place.address.streetAddress }}</span><br>
-          <span itemprop="addressLocality">{{ place.address.addressLocality }}</span><br>
-          <span itemprop="addressRegion">{{ place.address.addressRegion }}</span>
-      </div>
+    <span itemprop="name">{{ place.name }}</span>
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="display: none;">
+      <span itemprop="streetAddress">{{ place.address.streetAddress }}</span><br>
+      <span itemprop="addressLocality">{{ place.address.addressLocality }}</span><br>
+      <span itemprop="addressRegion">{{ place.address.addressRegion }}</span>
+    </div>
   </div>
-  <img src="{{ event.image }}" alt="" style="display: none;" itemprop="image">
+
+  {% if event.page %}
+    <br>
+    <a href="{{ event.page }}" style="color: white;">Plus d'informations →</a>
+  {% endif %}
 </div>

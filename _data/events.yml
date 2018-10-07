@@ -3,8 +3,8 @@
     start: '2018-10-12'
     end: '2018-10-12'
   name: 'Rock'
-  description: ''
   place: api
+  page: '/evenements/2018/10/12/rock.html'
   image: '/assets/img/events/2018-10-12.jpg'
 
 - date:
@@ -12,7 +12,6 @@
     start: '2018-11-09'
     end: 2018-11-09'
   name: 'Improvisation'
-  description: ''
   place: api
   image: '/assets/img/events/2018-11-09.jpg'
 
@@ -21,7 +20,6 @@
     start: '2018-11-17'
     end: 2018-11-17'
   name: 'Stand-up'
-  description: ''
   place: api
   image: '/assets/img/events/2018-11-17.jpg'
 
@@ -30,6 +28,5 @@
     start: '2018-11-29'
     end: 2018-11-29'
   name: 'All Styles'
-  description: ''
   place: terreau
   image: '/assets/img/events/2018-11-29.jpg'
