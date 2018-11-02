@@ -13,6 +13,7 @@
     end: 2018-11-10'
   name: 'Improvisation'
   place: api
+  page: '/evenements/2018/11/10/improvisation.html'
   image: '/assets/img/events/2018-11-10.jpg'
 
 - date:
