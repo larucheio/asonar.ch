@@ -22,6 +22,7 @@
     end: 2018-11-17'
   name: 'Stand-up'
   place: api
+  page: '/evenements/2018/11/17/humour.html'
   image: '/assets/img/events/2018-11-17.jpg'
 
 - date:
