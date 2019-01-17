@@ -3,7 +3,7 @@ layout: main
 ---
 
 <section>
-  {% for event in site.data.events %}
+  {% for event in site.data.events-archives %}
   {% assign place = site.data.places[event.place] %}
     {% include event.html %}
   {% endfor %}
