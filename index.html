@@ -7,11 +7,14 @@ layout: main
   <h2 style="margin-top: 0;">social club</h2>
 </header>
 
-<section>
-  {% for event in site.data.events %}
-  {% assign place = site.data.places[event.place] %}
-    {% include event.html %}
-  {% endfor %}
+<section class="description">
+  <p>Pas d'évènements à venir (mais on y travaille 😉)!</p>
+</section>
+
+<section class="description">
+  <p>
+    <a href="/evenements/archives">Consulter les anciens évènements</a>
+  </p>
 </section>
 
 <section class="description">

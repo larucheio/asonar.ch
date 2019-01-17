@@ -1,0 +1,10 @@
+---
+layout: main
+---
+
+<section>
+  {% for event in site.data.events %}
+  {% assign place = site.data.places[event.place] %}
+    {% include event.html %}
+  {% endfor %}
+</section>
