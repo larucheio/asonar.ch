@@ -3,12 +3,15 @@ layout: main
 ---
 
 <header class="event__hero" style="background-image: url('/assets/img/header.jpg');">
-  <h1 style="margin-bottom: 0;">SONAR</h1>
+  <h1 style="margin-bottom: 0;">sonar</h1>
   <h2 style="margin-top: 0;">social club</h2>
 </header>
 
-<section class="description">
-  <p>Pas d'évènements à venir (mais on y travaille 😉)!</p>
+<section>
+  {% for event in site.data.events %}
+  {% assign place = site.data.places[event.place] %}
+    {% include event.html %}
+  {% endfor %}
 </section>
 
 <section class="description">
