@@ -1,8 +1,8 @@
 - date:
-    public: '08.03.2019'
-    start: '2019-03-08'
-    end: '2019-03-08'
-  name: 'Magie'
-  place: api
-  page: '/evenements/2019/03/08/magie.html'
-  image: '/assets/img/events/2019-03-08.jpg'
+    public: '25.10.2019'
+    start: '2019-10-25'
+    end: '2019-10-25'
+  name: '800% Hits Extravadance'
+  place: terreau
+  page: '/evenements/2019/10/25/800-hits-extravadance.html'
+  image: '/assets/img/events/2019-10-25.jpg'
