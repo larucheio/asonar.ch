@@ -5,6 +5,6 @@ layout: main
 <section>
   {% for event in site.data.events-archives %}
   {% assign place = site.data.places[event.place] %}
-    {% include event.html %}
+    {% include event-archives.html %}
   {% endfor %}
 </section>

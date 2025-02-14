@@ -1,21 +1,5 @@
-<div class="event__hero" style="background-image: url('{{ event.image }}');" itemscope itemtype="http://schema.org/Event">
-  <time itemprop="startDate" datetime="{{ event.date.start }}">{{ event.date.public }}</time><time itemprop="endDate" datetime="{{ event.date.end }}"></time>
-  <br>
-  <span itemprop="name">{{ event.name }}</span>
-
-  <br>
-
-  <div itemprop="location" itemscope itemtype="http://schema.org/Place">
-    <span itemprop="name">{{ place.name }}</span>
-    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="display: none;">
-      <span itemprop="streetAddress">{{ place.address.streetAddress }}</span><br>
-      <span itemprop="addressLocality">{{ place.address.addressLocality }}</span><br>
-      <span itemprop="addressRegion">{{ place.address.addressRegion }}</span>
-    </div>
-  </div>
-
-  {% if event.page %}
-    <br>
-    <a href="{{ event.page }}" style="color: white; font-size: 1rem;">Plus d'informations →</a>
-  {% endif %}
+<div class="event_hero" itemscope itemtype="http://schema.org/Event">
+  <a href="{{ event.page }}">
+    <img src="{{ event.image }}" alt="" style="width: 100%; height: auto;">
+  </a>
 </div>
